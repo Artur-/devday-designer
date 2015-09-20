@@ -1,0 +1,11 @@
+@import "../valo/valo.scss";
+
+@mixin designer {
+  @include valo;
+
+  // Insert your own theme rules here
+  .hotlink {
+    color: red;
+   }
+   
+}
